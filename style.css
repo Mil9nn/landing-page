@@ -1,0 +1,25 @@
+.header-logo {
+    max-width: 50px;
+    height: auto;
+}
+
+.heading {
+    display: flex;
+    padding: 20px;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.wonder-img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 6px;
+}
+
+.wonder-img-cont {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
