@@ -1,3 +1,7 @@
+body {
+    font-family: roboto, sans-serif, Arial;
+}
+
 .header-logo {
     max-width: 50px;
     height: auto;
@@ -8,45 +12,120 @@
     padding: 20px;
     background-color: #1F2937;
     color: #F9FAF8;
+    gap: 2rem;
+
 }
 
-.hero-section {
+.nav-links {
     display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #cc1b5c;
+    font-weight: bold;
+}
+
+#hero-section {
+    display: flex;
+    gap: 20px;
     color: #F9FAF8;
     background-color: #1F2937;
+    align-items: center;
 }
 
-.wonder-section {
+.hero-desc {
+    padding: 30px;
+    max-width: 40%;
+    line-height: 1.5;
+}
+
+.img-placeholder {
+    background-color: #E5E7EB;
+    padding: 20px;
+    width: 40%;
+    height: 100px;
+    align-content: center;
+}
+
+.img-placeholder p {
+    color: #1f2937;
+}
+
+#wonder-section {
+    width: 100%;
+    margin: 0 auto;
     background-color: #F9FAF8;
+    text-align: center;
 }
 
 .wonder-img {
-    max-width: 100px;
+    max-width: 120px;
     height: auto;
     border-radius: 6px;
 }
 
 .wonder-img-cont {
+    padding: 20px;
     display: flex;
-    gap: 28px;
+    gap: auto;
+    justify-content: center;
+}
+
+#inspiring-quote {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #E5E7EB;
+    color: #1f2937;
+    padding: 40px 50px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* Sign up Button and Container Styling */
+
+.signup-cont {
+    max-width: 60%;
+    height: 15px;
+    margin: 0 auto;
+    display: flex;
+    padding: 40px;
+    gap: 2rem;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 4px;
+    font-size: 1rem;
+    /* making sure no overflow */
+    flex: 1;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+    /* Align content to the center */
+    justify-content: center;
     align-items: center;
 }
 
-.signup-descr {
-    max-width: 60%;
+.signup-desc {
+    max-width: 70%;
+    text-align: center;
 }
 
-.signup-cont {
-    display: flex;
-    padding: 40px;
-}
-
-.inspiring-quote {
-    background-color: #E5E7EB;
-    color: #1f2937;
+.signup-button {
+    padding: 10px 20px;
+    font-weight: bold;
 }
 
 footer {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .wonder-img-cont {
+        flex-direction: column;
+    }
 }
