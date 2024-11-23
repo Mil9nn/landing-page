@@ -6,10 +6,18 @@
 .heading {
     display: flex;
     padding: 20px;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
 
-.flexbox {
+.hero-section {
     display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+.wonder-section {
+    background-color: #F9FAF8;
 }
 
 .wonder-img {
@@ -22,4 +30,23 @@
     display: flex;
     gap: 28px;
     align-items: center;
+}
+
+.signup-descr {
+    max-width: 60%;
+}
+
+.signup-cont {
+    display: flex;
+    padding: 40px;
+}
+
+.inspiring-quote {
+    background-color: #E5E7EB;
+    color: #1f2937;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
 }
